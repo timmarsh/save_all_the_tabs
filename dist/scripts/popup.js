@@ -1,1 +1,0 @@
-"use strict";chrome.bookmarks.create({title:"SaveAllTheTabs"},function(a){chrome.tabs.query({},function(b){b.forEach(function(b){chrome.bookmarks.create({parentId:a.id,title:b.title,url:b.url}),chrome.tabs.remove(b.id)}),chrome.tabs.create({},function(){})})});
