@@ -7,6 +7,6 @@ its from a yeoman generator - hence the logo
 
 ```
 grunt build 
-
+```
 
 then you should be able to load this as an unpacked extension
